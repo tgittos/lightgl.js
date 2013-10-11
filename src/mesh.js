@@ -167,6 +167,7 @@ Mesh.prototype = {
       buffer.data = this[name];
       buffer.compile();
     }
+    return this;
   },
 
   // ### .transform(matrix)
